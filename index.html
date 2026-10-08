@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bryan Ronnie Briones — Information Systems Graduate &amp; Developer</title>
+  <meta name="description"
+    content="Portfolio of Bryan Ronnie Briones, an Information Systems graduate focused on mobile development, UI/UX, IT systems, and digital experiences.">
+  <meta name="author" content="Bryan Ronnie Briones">
+  <meta name="theme-color" content="#071B33">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bryan Ronnie Briones — Information Systems Graduate &amp; Developer">
+  <meta property="og:description"
+    content="Information Systems graduate focused on mobile development, UI/UX, IT systems, and digital experiences. Based in Oriental Mindoro. Builder of Adventure, a Romblon trip-planning app.">
+  <meta property="og:locale" content="en_PH">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#home" aria-label="Bryan Briones — back to top">
+        <span class="brand-mark" aria-hidden="true">BB</span>
+        <span class="brand-name">Bryan Briones</span>
+      </a>
+
+      <nav class="nav-primary" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#home" data-nav-link="home">Home</a></li>
+          <li><a href="#about" data-nav-link="about">About</a></li>
+          <li><a href="#skills" data-nav-link="skills">Skills</a></li>
+          <li><a href="#adventure" data-nav-link="projects">Projects</a></li>
+          <li><a href="#experience" data-nav-link="experience">Experience</a></li>
+          <li><a href="#contact" data-nav-link="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-primary btn-sm nav-cta" href="#contact">
+        Let's talk
+        <svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+      </a>
+
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false"
+        aria-controls="menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ---------- Mobile menu ---------- -->
+  <div class="menu" id="menu" aria-label="Menu" inert>
+    <nav class="wrap menu-inner" aria-label="Mobile">
+      <ul class="menu-links">
+        <li><a href="#home"><span>01</span>Home</a></li>
+        <li><a href="#about"><span>02</span>About</a></li>
+        <li><a href="#skills"><span>03</span>Skills</a></li>
+        <li><a href="#adventure"><span>04</span>Projects</a></li>
+        <li><a href="#experience"><span>05</span>Experience</a></li>
+        <li><a href="#contact"><span>06</span>Contact</a></li>
+      </ul>
+      <div class="menu-foot">
+        <a class="btn btn-primary" href="#contact">Let's talk
+          <svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+        </a>
+        <p>Oriental Mindoro, Philippines</p>
+      </div>
+    </nav>
+  </div>
+
+  <main id="main">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" id="home" data-nav="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <img class="hero-topo" src="images/topo.svg" alt="" width="800" height="800">
+        <div class="hero-chip chip-a"><span class="dot"></span>Flutter + Firebase</div>
+        <div class="hero-chip chip-b"><span class="dot"></span>UI / UX Design</div>
+        <div class="hero-chip chip-c"><span class="dot"></span>IT Systems &amp; Data</div>
+      </div>
+
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow hero-in" style="--d:.15s">
+            <span class="dot" aria-hidden="true"></span>Information Systems Graduate
+          </p>
+          <h1 class="hero-title" id="hero-title">
+            <span class="hero-name hero-in" style="--d:.25s">Bryan Ronnie Briones</span>
+            <span class="line"><span class="hero-in" style="--d:.38s">From ideas</span></span>
+            <span class="line"><span class="hero-in" style="--d:.48s">to <em>working</em></span></span>
+            <span class="line"><span class="hero-in" style="--d:.58s">digital products.</span></span>
+          </h1>
+          <p class="hero-roles hero-in" style="--d:.72s">
+            Developer <i aria-hidden="true"></i> UI/UX <i aria-hidden="true"></i> IT Support
+          </p>
+          <p class="hero-desc hero-in" style="--d:.8s">
+            I build mobile apps with Flutter and Firebase, design interfaces in Figma, and solve hands-on IT
+            problems — from assembling hardware to organizing data.
+          </p>
+          <div class="hero-ctas hero-in" style="--d:.9s">
+            <a class="btn btn-primary" href="#adventure">
+              View my work
+              <svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+            </a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap hero-foot hero-in" style="--d:1.05s">
+        <dl class="hero-meta">
+          <div><dt>Based in</dt><dd>Oriental Mindoro, Philippines</dd></div>
+          <div><dt>Flagship project</dt><dd>Adventure — Flutter app</dd></div>
+          <div class="hide-sm"><dt>Open to</dt><dd>IT, data &amp; creative roles</dd></div>
+        </dl>
+        <a class="scroll-cue" href="#about">
+          <span class="scroll-line" aria-hidden="true"></span>Scroll to explore
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section class="section about" id="about" data-nav="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="about-grid">
+          <div class="about-media" data-reveal>
+            <figure class="portrait">
+              <img src="images/profile.png" alt="Portrait of Bryan Ronnie Briones in a navy suit" width="444"
+                height="561" loading="lazy" decoding="async">
+              <figcaption>
+                <span>Bryan Ronnie Briones</span>
+                <span>Oriental Mindoro</span>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="about-copy">
+            <p class="label" data-reveal><span class="label-num">01</span>About me</p>
+            <h2 class="h-xl" id="about-title" data-reveal>I build, design, <br class="br-md">and <em>solve.</em></h2>
+            <div class="about-text" data-reveal>
+              <p class="lead">
+                I'm an Information Systems graduate who likes making useful things — and making things work.
+              </p>
+              <p>
+                My experience spans mobile development, UI/UX design, IT troubleshooting, data handling, and
+                creative digital work. I independently built <a class="text-link" href="#adventure">Adventure</a>,
+                a trip-planning app for Romblon Province, and completed a 500-hour internship at the House of
+                Representatives working with voter data.
+              </p>
+              <p>
+                I'm looking for opportunities in entry-level IT support, data entry, administrative work, and
+                technical or creative roles.
+              </p>
+            </div>
+
+            <dl class="about-facts" data-stagger>
+              <div><dt>Based in</dt><dd>Oriental Mindoro, Philippines</dd></div>
+              <div><dt>Building with</dt><dd>Curiosity + code</dd></div>
+              <div><dt>Interested in</dt><dd>Technology + design</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <ul class="disciplines" aria-label="Disciplines" data-stagger>
+          <li>Information Systems</li>
+          <li>Mobile Development</li>
+          <li>UI/UX Design</li>
+          <li>IT Troubleshooting</li>
+          <li>Data Handling</li>
+          <li>Creative Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS
+         ============================================================ -->
+    <section class="section skills tint" id="skills" data-nav="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <p class="label" data-reveal><span class="label-num">02</span>Skills</p>
+            <h2 class="h-lg" id="skills-title" data-reveal>A toolkit that crosses <em>disciplines.</em></h2>
+          </div>
+          <p class="sec-intro" data-reveal>
+            From writing Flutter code to diagnosing a failing PC — grouped by the kind of problem each one solves.
+          </p>
+        </div>
+
+        <div class="skill-grid" data-stagger>
+          <article class="skill-card skill-card--wide">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 4l-3 16" /></svg>
+              </span>
+              <span class="skill-idx">01</span>
+            </div>
+            <h3>Development</h3>
+            <p>Cross-platform mobile apps with a cloud backend and AI features.</p>
+            <ul class="tags">
+              <li>Flutter</li><li>Firebase</li><li>Firestore</li><li>Firebase Authentication</li>
+              <li>Firebase Storage</li><li>Cloud Functions</li><li>Google Gemini AI</li><li>Mapbox</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 9h18M9 9v11" /></svg>
+              </span>
+              <span class="skill-idx">02</span>
+            </div>
+            <h3>UI / UX</h3>
+            <p>Interfaces that are clear, consistent, and easy to use.</p>
+            <ul class="tags">
+              <li>Figma</li><li>UI/UX Design</li><li>Design Systems</li><li>Layout Design</li>
+              <li>Visual Content Creation</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="1.5" /><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4" /></svg>
+              </span>
+              <span class="skill-idx">03</span>
+            </div>
+            <h3>IT / Systems</h3>
+            <p>Hands-on hardware, setup, and troubleshooting.</p>
+            <ul class="tags">
+              <li>Computer Assembly</li><li>Computer Diagnostics</li><li>Hardware Troubleshooting</li>
+              <li>Basic Networking</li><li>Windows Installation</li><li>Basic Configuration</li>
+              <li>Peripheral Setup</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18M3 15h18M9 3v18" /></svg>
+              </span>
+              <span class="skill-idx">04</span>
+            </div>
+            <h3>Productivity</h3>
+            <p>Accurate data, clean documents, and clear reports.</p>
+            <ul class="tags">
+              <li>Microsoft Excel</li><li>Microsoft Word</li><li>PowerPoint</li><li>Data Encoding</li>
+              <li>Document Preparation</li><li>Dataset Analysis</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z" /><path d="M19 16l.7 2.3L22 19l-2.3.7L19 22l-.7-2.3L16 19l2.3-.7z" /></svg>
+              </span>
+              <span class="skill-idx">05</span>
+            </div>
+            <h3>Creative</h3>
+            <p>Graphics and video for digital content.</p>
+            <ul class="tags">
+              <li>Canva</li><li>CapCut</li><li>Graphic Design</li><li>Video Editing</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURED PROJECT — ADVENTURE
+         ============================================================ -->
+    <section class="adventure on-dark" id="adventure" data-nav="projects" aria-labelledby="adventure-title">
+      <div class="adv-grid-bg" aria-hidden="true"></div>
+
+      <!-- ---------- Intro ---------- -->
+      <div class="wrap adv-intro">
+        <div class="adv-intro-copy">
+          <p class="label" data-reveal><span class="label-num">03</span>Featured project</p>
+          <h2 class="adv-title" id="adventure-title" data-reveal>
+            <img class="adv-logo" src="images/app/logo.webp" alt="" width="160" height="164" loading="lazy">
+            Adventure
+          </h2>
+          <p class="adv-sub" data-reveal>Romblon Tourism &amp; Trip-Planning App</p>
+          <p class="adv-desc" data-reveal>
+            An independent Flutter project that brings trip planning, destination guides, island-to-island ferry
+            routes, and an AI travel assistant together for Romblon Province.
+          </p>
+          <ul class="tags tags--dark" data-reveal>
+            <li>Flutter</li><li>Firebase</li><li>Gemini AI</li><li>Mapbox</li>
+          </ul>
+          <dl class="adv-meta" data-reveal>
+            <div><dt>Role</dt><dd>Independent developer</dd></div>
+            <div><dt>Scope</dt><dd>Design, build &amp; release</dd></div>
+            <div><dt>Status</dt><dd><span class="status-dot" aria-hidden="true"></span>In beta testing</dd></div>
+          </dl>
+          <div class="adv-ctas" data-reveal>
+            <a class="btn btn-primary" href="https://adventure-ivory-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
+              View project
+              <svg class="i-arrow i-ext" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 11l6-6M6 5h5v5" /></svg>
+              <span class="sr-only">(opens in a new tab)</span>
+            </a>
+            <a class="btn btn-ghost btn-ghost--dark" href="#adv-story">Read the case study</a>
+          </div>
+        </div>
+        <div class="adv-intro-visual" data-reveal>
+          <div class="adv-glow" aria-hidden="true"></div>
+          <div class="adv-phones">
+            <img class="phone-back" src="images/app/shot-route-schedule.webp"
+              alt="Adventure Plan screen with the trip planner, ferry routes, and sailing schedule" width="640"
+              height="1294" loading="lazy" decoding="async" data-parallax="0.05">
+            <img class="phone-front" src="images/app/shot-home.webp"
+              alt="Adventure home screen with a featured beach, search, quick actions, and must-visit spots" width="640"
+              height="1294" loading="lazy" decoding="async" data-parallax="-0.05">
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap adv-story" id="adv-story">
+
+        <!-- 01 The idea -->
+        <div class="chapter chapter--idea">
+          <div class="chapter-label" data-reveal><span>01</span>The idea</div>
+          <div class="chapter-body">
+            <h3 class="h-md" data-reveal>An archipelago deserves a better trip planner.</h3>
+            <p data-reveal>
+              Getting around Romblon means moving between islands — ports, ferries, and destinations spread across
+              the province. Adventure started from wanting to make that easier to navigate: one app to explore
+              places, plan the route, and keep the trip organized.
+            </p>
+          </div>
+        </div>
+
+        <!-- 02 The experience -->
+        <div class="chapter">
+          <div class="chapter-label" data-reveal><span>02</span>The experience</div>
+          <div class="chapter-body">
+            <h3 class="h-md" data-reveal>Explore. Plan. Navigate. Ask.</h3>
+            <ul class="feature-list" data-stagger>
+              <li>Plan trips</li>
+              <li>Explore destinations</li>
+              <li>Navigate island-to-island ferry routes</li>
+              <li>Read destination guides</li>
+              <li>Ask an AI travel assistant</li>
+              <li>Track places visited</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="screens" data-stagger>
+          <figure class="screen">
+            <img src="images/app/shot-home.webp" alt="Adventure home screen with a featured beach, quick actions, and must-visit spots"
+              width="640" height="1294" loading="lazy" decoding="async">
+            <figcaption><span>Explore</span>Destinations &amp; guides</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/app/shot-route-schedule.webp" alt="Plan screen with island-to-island routes and the ferry schedule"
+              width="640" height="1294" loading="lazy" decoding="async">
+            <figcaption><span>Plan</span>Routes &amp; ferry schedules</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/app/shot-itinerary.webp" alt="Five-day Tablas itinerary with a map, weather note, and day route"
+              width="640" height="1294" loading="lazy" decoding="async">
+            <figcaption><span>Navigate</span>Day-by-day itineraries</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/app/shot-travel-footprints.webp" alt="Travel footprints map of Romblon showing trip progress across municipalities"
+              width="640" height="1294" loading="lazy" decoding="async">
+            <figcaption><span>Track</span>Travel footprints</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/app/shot-isla.webp" alt="Isla, the in-app AI travel assistant, with suggested questions"
+              width="640" height="1294" loading="lazy" decoding="async">
+            <figcaption><span>Ask</span>Isla, the AI assistant</figcaption>
+          </figure>
+        </div>
+
+        <!-- 03 The technology -->
+        <div class="chapter">
+          <div class="chapter-label" data-reveal><span>03</span>The technology</div>
+          <div class="chapter-body">
+            <h3 class="h-md" data-reveal>A full stack, not just a front end.</h3>
+            <ul class="stack" data-stagger>
+              <li><strong>Flutter</strong><span>App framework</span></li>
+              <li><strong>Firebase</strong><span>Backend platform</span></li>
+              <li><strong>Firestore</strong><span>App data</span></li>
+              <li><strong>Firebase Auth</strong><span>User accounts</span></li>
+              <li><strong>Firebase Storage</strong><span>Media &amp; files</span></li>
+              <li><strong>Cloud Functions</strong><span>Server-side logic</span></li>
+              <li><strong>Google Gemini AI</strong><span>Powers Isla</span></li>
+              <li><strong>Mapbox</strong><span>Maps &amp; routes</span></li>
+              <li><strong>Secret Manager</strong><span>API key storage</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 04 AI assistant -->
+        <div class="chapter chapter--split">
+          <div class="chapter-label" data-reveal><span>04</span>AI assistant</div>
+          <div class="chapter-body isla">
+            <div class="isla-copy">
+              <h3 class="h-md" data-reveal>Meet Isla.</h3>
+              <p data-reveal>
+                Isla is Adventure's in-app travel assistant, powered by Google Gemini. Instead of only chatting, it
+                can call tools — covering capabilities such as weather, place search, and itinerary support.
+              </p>
+              <div class="isla-stat" data-reveal>
+                <span class="stat-num" data-count="8">8</span>
+                <span class="stat-label">function-calling<br>tools</span>
+              </div>
+              <ul class="tool-chips" data-reveal aria-label="Example tool capabilities">
+                <li>Weather</li><li>Place search</li><li>Itinerary support</li>
+              </ul>
+            </div>
+
+            <div class="ai-mock" data-reveal aria-label="Illustrative example of an Isla conversation" role="img">
+              <div class="ai-head">
+                <img src="images/app/logo.webp" alt="" width="160" height="164" loading="lazy">
+                <div>
+                  <strong>Isla</strong>
+                  <span>Romblon travel assistant</span>
+                </div>
+                <span class="ai-badge">Gemini</span>
+              </div>
+              <div class="ai-body">
+                <div class="msg msg--user">Plan a beach day on Tablas this weekend.</div>
+                <div class="tool-run">
+                  <div class="tool-row"><span class="tool-ic"></span>Weather<em>forecast checked</em></div>
+                  <div class="tool-row"><span class="tool-ic"></span>Place search<em>beaches found</em></div>
+                  <div class="tool-row"><span class="tool-ic"></span>Itinerary<em>draft ready</em></div>
+                </div>
+                <div class="msg msg--ai">
+                  I checked the weekend forecast and drafted a beach day for Tablas. Want me to add a ferry route
+                  to get there?
+                </div>
+              </div>
+              <div class="ai-input"><span>Ask Isla about Romblon…</span><i aria-hidden="true"></i></div>
+              <p class="mock-note">Illustrative conversation</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05 Security -->
+        <div class="chapter">
+          <div class="chapter-label" data-reveal><span>05</span>Security remediation</div>
+          <div class="chapter-body">
+            <h3 class="h-md" data-reveal>Getting the API key out of the app.</h3>
+            <p data-reveal>
+              The Gemini API key originally lived in the client. I migrated the calls to a secured Cloud Function
+              that reads the key from Secret Manager, and restricted the API keys that had been exposed.
+            </p>
+
+            <div class="sec-diagram" data-reveal>
+              <div class="sec-row sec-row--before">
+                <span class="sec-tag">Before</span>
+                <div class="sec-flow">
+                  <div class="node node--warn">Client app<small>key bundled in app</small></div>
+                  <span class="edge edge--warn" aria-hidden="true"></span>
+                  <div class="node">Gemini API</div>
+                </div>
+              </div>
+              <div class="sec-row sec-row--after">
+                <span class="sec-tag sec-tag--ok">After</span>
+                <div class="sec-flow sec-flow--after">
+                  <div class="node">Client app<small>no key</small></div>
+                  <span class="edge" aria-hidden="true"></span>
+                  <div class="node node--accent">Secure Cloud Function
+                    <div class="node-branch">
+                      <span class="edge edge--v" aria-hidden="true"></span>
+                      <div class="node node--sub">Secret Manager<small>stores the key</small></div>
+                    </div>
+                  </div>
+                  <span class="edge" aria-hidden="true"></span>
+                  <div class="node">Gemini API</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 06 Design system -->
+        <div class="chapter">
+          <div class="chapter-label" data-reveal><span>06</span>Design system</div>
+          <div class="chapter-body">
+            <h3 class="h-md" data-reveal>One system, every screen.</h3>
+            <p data-reveal>
+              Adventure runs on a reusable design system I built — themed components, spacing utilities, and a
+              typography scale applied consistently across the app.
+            </p>
+          </div>
+        </div>
+
+        <div class="ds-board" data-reveal>
+          <div class="ds-cell ds-type">
+            <p class="ds-label">Typography</p>
+            <p class="ds-aa">Aa</p>
+            <div class="ds-weights" aria-hidden="true"><span class="w8">Aa</span><span class="w7">Aa</span><span class="w6">Aa</span><span class="w4">Aa</span></div>
+            <div class="ds-scale">
+              <span class="t1">Heading</span>
+              <span class="t2">Subheading</span>
+              <span class="t3">Body text for guides and descriptions</span>
+              <span class="t4">LABEL · CAPTION</span>
+            </div>
+          </div>
+
+          <div class="ds-cell ds-colors">
+            <p class="ds-label">Colors</p>
+            <div class="swatches">
+              <span class="sw sw-navy"><i>Navy</i></span>
+              <span class="sw sw-orange"><i>Orange</i></span>
+              <span class="sw sw-light"><i>Light</i></span>
+              <span class="sw sw-white"><i>White</i></span>
+            </div>
+          </div>
+
+          <div class="ds-cell ds-spacing">
+            <p class="ds-label">Spacing</p>
+            <div class="space-scale" aria-hidden="true">
+              <span style="--s:4px"></span><span style="--s:8px"></span><span style="--s:12px"></span>
+              <span style="--s:16px"></span><span style="--s:24px"></span><span style="--s:32px"></span>
+            </div>
+          </div>
+
+          <div class="ds-cell ds-components">
+            <p class="ds-label">Buttons · Inputs · Chips</p>
+            <div class="ds-row">
+              <span class="ds-btn">Plan This Trip</span>
+              <span class="ds-btn ds-btn--ghost">See all</span>
+            </div>
+            <div class="ds-input"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5" /><path d="M10.5 10.5L14 14" /></svg>Search places, beaches, spots…<span>Search</span></div>
+            <div class="ds-row">
+              <span class="ds-chip ds-chip--active">Tablas Island</span>
+              <span class="ds-chip">Romblon Island</span>
+              <span class="ds-chip">Sibuyan Island</span>
+            </div>
+          </div>
+
+          <div class="ds-cell ds-cards">
+            <p class="ds-label">Cards</p>
+            <div class="ds-card">
+              <span class="ds-card-img"></span>
+              <span class="ds-card-tag">Trending</span>
+              <span class="ds-card-title">Destination card</span>
+              <span class="ds-card-sub">Municipality</span>
+            </div>
+          </div>
+
+          <div class="ds-cell ds-nav">
+            <p class="ds-label">Navigation</p>
+            <div class="ds-seg"><span class="is-active">Day 1</span><span>Day 2</span><span>Day 3</span></div>
+            <div class="ds-tabbar">
+              <span class="is-active"><i></i>Home</span>
+              <span><i></i>Plan</span>
+              <span><i></i>Isla</span>
+              <span><i></i>Alerts</span>
+              <span><i></i>Profile</span>
+            </div>
+          </div>
+          <p class="ds-note">Design-system overview recreated for this portfolio from Adventure's interface.</p>
+        </div>
+
+        <!-- 07 Release pipeline -->
+        <div class="chapter">
+          <div class="chapter-label" data-reveal><span>07</span>Release pipeline</div>
+          <div class="chapter-body">
+            <h3 class="h-md" data-reveal>From code to testers' phones.</h3>
+            <p data-reveal>
+              The project goes beyond UI work: release builds, Android app signing, and distribution to testers
+              through Firebase App Distribution.
+            </p>
+          </div>
+        </div>
+
+        <ol class="pipeline" data-stagger>
+          <li><span class="pipe-n">01</span><strong>Develop</strong><span>Flutter + Firebase</span></li>
+          <li><span class="pipe-n">02</span><strong>Build</strong><span>Release builds — bundle cut from 86&nbsp;MB to 30&nbsp;MB</span></li>
+          <li><span class="pipe-n">03</span><strong>Sign</strong><span>Android app signing</span></li>
+          <li><span class="pipe-n">04</span><strong>Distribute</strong><span>Firebase App Distribution</span></li>
+          <li><span class="pipe-n">05</span><strong>Test</strong><span>Beta testing &amp; refinement</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+    <section class="section projects" id="projects" data-nav="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <p class="label" data-reveal><span class="label-num">04</span>Projects</p>
+            <h2 class="h-lg" id="projects-title" data-reveal>Things I've <em>built.</em></h2>
+          </div>
+          <p class="sec-intro" data-reveal>Two Flutter apps — one independent, one capstone.</p>
+        </div>
+
+        <div class="project-grid" data-stagger>
+          <article class="project-card">
+            <a class="project-link" href="#adventure" aria-labelledby="pc-adventure">
+              <div class="project-media project-media--adv">
+                <img src="images/app/shot-travel-footprints.webp" alt="" width="640" height="1294" loading="lazy" decoding="async">
+              </div>
+              <div class="project-body">
+                <p class="project-type">Independent project · Mobile app</p>
+                <h3 id="pc-adventure">Adventure</h3>
+                <p>Romblon tourism and trip-planning app with ferry routing, destination guides, and Isla, an AI
+                  travel assistant.</p>
+                <ul class="tags">
+                  <li>Flutter</li><li>Firebase</li><li>Gemini AI</li><li>Mapbox</li>
+                </ul>
+                <span class="project-cta">View case study
+                  <svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+                </span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card">
+            <a class="project-link" href="#contact" aria-labelledby="pc-fairtrade">
+              <div class="project-media project-media--ft">
+                <div class="ft-phone" aria-hidden="true">
+                  <div class="ft-top"><span class="ft-brand">Fair Trade</span><span class="ft-av"></span></div>
+                  <div class="ft-search"></div>
+                  <div class="ft-cats"><span class="on"></span><span></span><span></span><span></span></div>
+                  <div class="ft-items">
+                    <span><i></i><b></b><em></em></span>
+                    <span><i></i><b></b><em></em></span>
+                    <span><i></i><b></b><em></em></span>
+                    <span><i></i><b></b><em></em></span>
+                  </div>
+                  <div class="ft-sell">+ Sell</div>
+                </div>
+                <span class="media-note">Concept illustration</span>
+              </div>
+              <div class="project-body">
+                <p class="project-type">Capstone project · Mobile app</p>
+                <h3 id="pc-fairtrade">Fair Trade</h3>
+                <p>A secondhand-goods e-commerce app built in Flutter, focused on making buying and selling
+                  pre-owned items simple and intuitive.</p>
+                <ul class="tags">
+                  <li>Flutter</li><li>UI/UX</li><li>E-Commerce</li><li>Mobile Application</li>
+                </ul>
+                <span class="project-cta">Ask me about it
+                  <svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+                </span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXPERIENCE
+         ============================================================ -->
+    <section class="section experience tint" id="experience" data-nav="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <p class="label" data-reveal><span class="label-num">05</span>Experience</p>
+            <h2 class="h-lg" id="experience-title" data-reveal>Where I've <em>worked.</em></h2>
+          </div>
+          <p class="sec-intro" data-reveal>Real-world data work, and a product I'm building end to end.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="tl-item" data-reveal>
+            <div class="tl-when">
+              <span>Jan 2025 – Apr 2025</span>
+              <span class="tl-type">Internship · OJT</span>
+            </div>
+            <div class="tl-card tl-card--main">
+              <div class="tl-head">
+                <div>
+                  <h3>House of Representatives</h3>
+                  <p class="tl-role">Intern — On-the-Job Training</p>
+                </div>
+                <div class="tl-stat">
+                  <span class="stat-num" data-count="500">500</span>
+                  <span class="stat-label">hours</span>
+                </div>
+              </div>
+              <ul class="tl-list">
+                <li>Managed and analyzed voter datasets for accurate record-keeping</li>
+                <li>Assisted with election logistics coordination</li>
+                <li>Performed data analysis supporting operational decision-making</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl-item" data-reveal>
+            <div class="tl-when">
+              <span>Ongoing</span>
+              <span class="tl-type">Independent project</span>
+            </div>
+            <div class="tl-card">
+              <h3>Adventure</h3>
+              <p class="tl-role">Independent developer</p>
+              <p>Designing and building a Flutter tourism app for Romblon Province end to end — from architecture
+                and security to release.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION
+         ============================================================ -->
+    <section class="section education" id="education" data-nav="experience" aria-labelledby="education-title">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <p class="label" data-reveal><span class="label-num">06</span>Education</p>
+            <h2 class="h-lg" id="education-title" data-reveal>What I <em>studied.</em></h2>
+          </div>
+        </div>
+
+        <div class="cred-grid" data-stagger>
+          <article class="cred">
+            <div class="cred-top">
+              <span class="cred-kind">Degree</span>
+              <svg class="cred-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z" /><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5" /></svg>
+            </div>
+            <h3>Bachelor of Science in Information Systems</h3>
+            <p class="cred-org">Clarendon College</p>
+          </article>
+          <article class="cred">
+            <div class="cred-top">
+              <span class="cred-kind">Certification</span>
+              <svg class="cred-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5" /><path d="M9 13.5L7.5 21l4.5-2.5 4.5 2.5-1.5-7.5" /></svg>
+            </div>
+            <h3>UI/UX Design Essentials</h3>
+            <p class="cred-org">CIIT</p>
+            <p class="cred-id"><span>Certificate ID</span>UIUX-2025-9-20</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROCESS
+         ============================================================ -->
+    <section class="section process tint" id="process" data-nav="none" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <p class="label" data-reveal><span class="label-num">07</span>How I work</p>
+            <h2 class="h-lg" id="process-title" data-reveal>From the problem <em>to the product.</em></h2>
+          </div>
+          <p class="sec-intro" data-reveal>How I like to approach a project — where design, development, and IT
+            thinking meet.</p>
+        </div>
+
+        <ol class="steps" data-stagger>
+          <li><span class="step-n">01</span><h3>Understand</h3><p>Understand the problem, the users, and the requirements.</p></li>
+          <li><span class="step-n">02</span><h3>Design</h3><p>Turn requirements into clear user experiences.</p></li>
+          <li><span class="step-n">03</span><h3>Build</h3><p>Develop the product with the right technologies.</p></li>
+          <li><span class="step-n">04</span><h3>Test</h3><p>Find problems, refine, and improve.</p></li>
+          <li><span class="step-n">05</span><h3>Deliver</h3><p>Prepare the product for real-world use.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section class="contact on-dark" id="contact" data-nav="contact" aria-labelledby="contact-title">
+      <div class="contact-topo" aria-hidden="true"></div>
+      <div class="wrap contact-inner">
+        <p class="label" data-reveal><span class="label-num">08</span>Contact</p>
+        <h2 class="contact-title" id="contact-title" data-reveal>Have an idea?<br><em>Let's build it.</em></h2>
+        <p class="contact-copy" data-reveal>
+          Interested in working together, discussing a project, or connecting about an opportunity? I'd be glad to
+          hear from you.
+        </p>
+
+        <div class="contact-actions" data-reveal>
+          <a class="btn btn-primary btn-lg" href="mailto:brionesbry26@gmail.com">
+            Get in touch
+            <svg class="i-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+          </a>
+          <button class="btn btn-ghost btn-ghost--dark copy-btn" type="button" data-copy="brionesbry26@gmail.com">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5" y="5" width="8.5" height="8.5" rx="1.5" /><path d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5" /></svg>
+            <span class="copy-label">Copy email</span>
+          </button>
+          <span class="sr-only" aria-live="polite" id="copy-status"></span>
+        </div>
+
+        <dl class="contact-list" data-stagger>
+          <div>
+            <dt>Email</dt>
+            <dd><a class="text-link text-link--dark" href="mailto:brionesbry26@gmail.com">brionesbry26@gmail.com</a></dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd><a class="text-link text-link--dark" href="tel:+639127531625">0912-753-1625</a></dd>
+          </div>
+          <div>
+            <dt>Location</dt>
+            <dd>Oriental Mindoro, Philippines</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-id">
+          <p class="footer-name">Bryan Ronnie Briones</p>
+          <p>Information Systems Graduate</p>
+          <p>Developer • UI/UX • IT</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#adventure">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <ul class="footer-links footer-social">
+          <li><a href="https://github.com/brionesbry26-prog" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in a new tab)</span></a></li>
+          <li><a href="#home">Back to top ↑</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Bryan Ronnie Briones</p>
+        <p>Designed &amp; built by hand in Oriental Mindoro.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
